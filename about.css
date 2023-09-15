@@ -1,0 +1,120 @@
+/*  ABOUT*/
+
+div#aboutComp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    gap: 25px;
+}
+
+img#company {
+    width: 405px;
+    height: 285px;
+}
+
+h1#ab-title {
+    color: rgb(9, 7, 60);
+    font-family: system-ui;
+}
+
+p#ab-des {
+    line-height:1.6rem;
+    font-size:large; 
+    font-family: math;
+}
+
+
+/* LOGO QST ANS*/
+
+.bmw-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    background-color: rgb(222, 221, 218);
+    padding: 15px;
+    padding-bottom: 20px;
+}
+
+h1#qst {
+    text-align: center;
+    font-family: system-ui;
+    font-size: xx-large;
+}
+
+
+.logo-ans {
+    line-height:1.9rem;
+    font-size: large;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    justify-items: right;
+    text-align: left;
+    padding-left: 18px;
+}
+
+/* VIDEO*/
+
+video#vid {
+    width: 1000px;
+    height: 400px;
+    padding: 100px;
+    align-items: center;
+}
+
+
+/* Achievement*/
+
+.achievements {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 25px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+}
+
+img#ach-img {
+    width: 405px;
+    height: 385px;
+}
+
+h1#ach-title {
+    color: rgb(9, 7, 60);
+    font-family: system-ui;
+}
+
+.ach-des {
+    line-height:1.6rem;
+    font-size:large; 
+    font-family: math;
+}
+
+/*  biography*/
+
+.biography {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+}
+
+img#bio-img {
+    width: 425px;
+    height: 340px;
+}
+
+h1#b-title {
+    color: rgb(9, 7, 60);
+    font-family: system-ui;
+}
+
+.b-des {
+    line-height:1.6rem;
+    font-size:large; 
+    font-family: math;
+}

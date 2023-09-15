@@ -1,0 +1,155 @@
+/* Special Deal*/
+
+.Deal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    gap: 25px;
+}
+
+img#offer-img {
+    width: 405px;
+    height: 285px;
+}
+
+h1#offer {
+    color: rgb(9, 7, 60);
+    font-family: system-ui;
+}
+
+.offer-des {
+    line-height:1.6rem;
+    font-size:large; 
+    font-family: math;
+}
+
+/* 7 cars Available for sale*/
+  
+.Available-cars {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px;
+    gap: 20px;
+}
+
+h2#ava-title {
+    color: rgb(9, 7, 60);
+    font-family: system-ui;
+    margin: 20px;
+    margin-top: -130px;
+}
+
+ol#ava-cars {
+    line-height:1.6rem;
+    font-size:large; 
+    font-family: system-ui;
+    margin-right: 120px;
+    margin-top: 8px;
+}
+
+img#ava-img {
+    width: 390px;
+    height: 290px;
+}
+
+/* FORM */
+
+.form {
+    background-color: rgb(196, 196, 202);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    padding: 40px;
+  }
+  
+  #request-title {
+    color: rgb(0, 0, 0);
+    font-family:  sans-serif;
+  }
+  
+  #request-text {
+    color: rgb(0, 0, 0);
+    width: 400px;
+    font-size: large;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    
+  }
+  
+  #form {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  #form input {
+    width: 300px;
+    height: 30px;
+    border: 0.5px solid white;
+    border-radius: 10px;
+  }
+  
+  #form input:hover {
+    border: 1.5px solid #9eccd7;
+  }
+  
+  #form input:focus {
+    outline: 1.5px solid #94cbd7;
+  }
+  
+  #submit {
+    width: 89px;
+    height: 30px;
+    border: none;
+    border-radius: 9px;
+    color: black;
+    background-color: white;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  #submit:hover {
+    background-color: #1b1e69;
+    color: white;
+    cursor: pointer;
+    width: 95px;
+    height: 35px;
+    transition: all 0.2s ease-in-out;
+  }
+
+
+/* Radio*/
+input#color {
+  width: 20px;
+  height: 20px;
+}
+
+.color {
+  color: rgb(0, 0, 0);
+  font-size: larger;
+  font-family: sans-serif;
+  padding: 2px;
+  margin-right: 70px;
+}
+
+input#payment {
+  width: 20px;
+  height: 20px;
+}
+
+.pay {
+  color: rgb(0, 0, 0);
+  font-size: larger;
+  font-family: sans-serif;
+  padding: 2px;
+  margin-right: 40px;
+}

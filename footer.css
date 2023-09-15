@@ -1,0 +1,34 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 60px;
+    gap: 7px;
+    background-color:  rgb(9, 7, 60);
+    justify-content: center;
+    text-align: center;
+}
+
+.socialmedia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 0px;
+}
+
+p#copyright {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight:normal;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+img#social-logo {
+    width: 30px;
+    height: 26px;
+    padding: 17px;
+    margin-bottom: -4px;
+    margin: 0px;
+}

@@ -1,0 +1,265 @@
+.newest {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  div#ncars {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+      margin-top: 35px;
+}
+h4 {
+    padding: 2px;
+    margin: 0px;
+    font-family: system-ui;
+    color: rgb(9, 7, 60);
+}
+
+dl {
+    padding: 2px;
+    margin: 2px;
+    font-family: system-ui;
+    font-size: 15px;
+}
+
+h1#ncars {
+    font-size: x-large;
+    font-family: system-ui;
+    margin-top: 40px;
+    padding: 20px;
+    text-align: initial;
+    justify-content: flex-start;
+    gap: 5px;
+    text-decoration: underline;
+}
+
+
+.ncards {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
+
+ /* NCard 1*/
+
+.ncard1 {
+    box-shadow: 7px 4px 14px 0px rgba(126, 124, 124, 0.2);
+    filter: grayscale(50%);
+    transition: ease-in-out 0.2s all;
+    width: 315px;
+    height: 377px;
+    }
+
+
+.ncard1:hover {
+    box-shadow: 0 8px 16px 0px rgba(153, 150, 217, 0.74);
+        cursor: pointer;
+        filter: grayscale(0%);
+        transition: all 0.2s ease-in-out;
+        width: 315px;
+        height: 380px;
+      }
+  
+  img#ncard-bg {
+    width: 250px;
+    height: 150px;
+    padding: 10px;
+}
+/* NCard 2*/
+
+.ncard2 {
+    box-shadow: 7px 4px 14px 0px rgba(126, 124, 124, 0.2);
+    filter: grayscale(50%);
+    transition: ease-in-out 0.2s all;
+    width: 315px;
+    height: 377px;
+    }
+
+
+.ncard2:hover {
+    box-shadow: 0 8px 16px 0 rgba(153, 150, 217, 0.74);
+        cursor: pointer;
+        filter: grayscale(0%);
+        transition: all 0.2s ease-in-out;
+        width: 315px;
+        height: 380px;
+      }
+  
+      /* NCard 3*/
+      
+.ncard3 {
+    box-shadow: 7px 4px 14px 0px rgba(126, 124, 124, 0.2);
+    filter: grayscale(50%);
+    transition: ease-in-out 0.2s all;
+    width: 315px;
+    height: 377px;
+    }
+
+
+.ncard3:hover {
+    box-shadow: 0 8px 16px 0 rgba(153, 150, 217, 0.74);
+    cursor: pointer;
+    filter: grayscale(0%);
+    transition: all 0.2s ease-in-out;
+    width: 315px;
+    height: 380px;
+  }
+
+
+ /* Most Expensive cars*/
+
+ div#ecars {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    background-color: rgb(232, 232, 240);
+    margin-top: 35px;
+}
+
+img#ecard-bg {
+    width: 370px;
+    height: 207px;
+    padding: 15px;
+    margin: 3px;
+    margin-left: 50px;
+}
+
+h1#ecars {
+    color: rgb(9, 7, 60);
+    font-size: 30px;
+    font-family: system-ui;
+    margin-left: 3px;
+    padding: 2px;
+}
+
+dl#ecar {
+    padding: 10px;
+    font-family: system-ui;
+    margin: 10px;
+    font-size: large;
+}
+
+/* BEST SELLING*/
+
+.bestS {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+  }
+
+  div#scars {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 35px;
+    padding-top: 35px;
+}
+
+h4 {
+    padding: 2px;
+    margin: 0px;
+    font-family: system-ui;
+    color: rgb(9, 7, 60);
+}
+
+dl {
+    padding: 2px;
+    margin: 2px;
+    font-family: system-ui;
+    font-size: 15px;
+}
+
+h1#scars {
+    font-size: x-large;
+    font-family: system-ui;
+    margin-top: 40px;
+    padding: 20px;
+    text-align: initial;
+    justify-content: flex-start;
+    gap: 5px;
+    text-decoration: underline;
+}
+
+
+.scards {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
+
+.scard {
+    box-shadow: 7px 4px 14px 0px rgba(126, 124, 124, 0.2);
+    filter: grayscale(50%);
+    transition: ease-in-out 0.2s all;
+    width: 250px;
+    height: 350px;
+    }
+
+
+.scard:hover {
+    box-shadow: 0 8px 16px 0px rgba(153, 150, 217, 0.74);
+        cursor: pointer;
+        filter: grayscale(0%);
+        transition: all 0.2s ease-in-out;
+        width: 253px;
+        height: 353px;
+      }
+  
+  img#scard-bg {
+    width: 225px;
+    height: 150px;
+    padding: 10px;
+}
+
+/* list cars */
+
+.list {
+    margin: 60px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+h2#list-title {
+    padding: 2px;
+    margin: 0px;
+    font-family: system-ui;
+    color: rgb(9, 7, 60);
+    text-decoration: underline;
+}
+
+ol#list-car {
+    padding: 2px;
+    margin: 2px;
+    font-family: system-ui;
+    font-size: 15px;
+}
+
+
+/* Table */
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    align-items: center;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .table {
+    margin: 30px;
+    padding: 5px;
+}
